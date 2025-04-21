@@ -25,52 +25,61 @@ export default function Hero() {
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <div className="flex flex-col items-start max-w-4xl">
             {/* Responsive heading */}
-            <h1 className="font-medium text-left" style={{ fontFamily: "Stolzl, sans-serif", lineHeight: 1.1 }}>
-              <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[64px] block drop-shadow-lg">
+            <h1 className="font-normal text-left" style={{ fontFamily: "Stolzl, sans-serif", lineHeight: "100%", letterSpacing: "0%" }}>
+              <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[72px] block drop-shadow-lg">
               Your Trusted Partner in
               </span>
-              <span className="block mt-1 sm:mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[70px]">
-              <span className="text-white drop-shadow-lg">
-                Premium{" "}
-              </span>
-              <span
-                style={{
-                backgroundImage: "linear-gradient(to right, #8B87FF, #E31E25)",
-                WebkitBackgroundClip: "text",
-                backgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                textShadow: "0px 2px 4px rgba(0, 0, 0, 0.3)",
-                }}
-              >
-                Steel Solutions
-              </span>
-              </span>
+                <span className="block mt-1 sm:mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[72px] whitespace-nowrap drop-shadow-lg">
+                <span className="text-white">
+                  Premium{" "}
+                </span>
+                <span
+                  style={{
+                  backgroundImage: "linear-gradient(to right, #8B87FF, #E31E25)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  textShadow: "0px 2px 4px rgba(0, 0, 0, 0.3)",
+                  }}
+                >
+                  Steel Solutions
+                </span>
+                </span>
             </h1>
 
-            {/* Description text with better responsive sizing */}
+            {/* Description text with Figma specifications */}
             <p
-              className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[32px] leading-normal max-w-3xl drop-shadow-md tracking-normal"
+              className="mt-4 sm:mt-6 text-sm sm:text-md md:text-lg lg:text-xl xl:text-[32px] max-w-2xl drop-shadow-md"
               style={{
-                fontFamily: "'Stolzl', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-                fontWeight: 100,
-                WebkitFontSmoothing: "antialiased",
-                color: "#E6E6E6",
-                wordSpacing: "normal",
+              fontFamily: "Stolzl, sans-serif",
+              lineHeight: "170%",
+              color: "#E6E6E6",
+              letterSpacing: "0%",
+              width: "100%",
+              maxWidth: "1007px"
               }}
             >
-              Delivering trusted steel solutions <span className="text-white font-bold">since 1998</span>, powered by{" "}
-              <span className="text-white font-bold">Tata Steel, JSW &amp; APL Apollo,</span> with a strong presence
+              Delivering trusted steel solutions <span style={{ fontWeight: 400, color: "white" }}>since 1998</span>, powered by{" "}
+              <span style={{ fontWeight: 400, color: "white" }}>Tata Steel, JSW &amp; APL Apollo,</span> with a strong presence
               across South India.
             </p>
 
-            {/* CTA Button with reduced margins */}
+            {/* CTA Button with Figma specifications */}
             <Link
               href="/contact-us"
-              className="mt-5 sm:mt-6 px-6 sm:px-8 py-3 bg-white text-[#242424] text-base sm:text-lg md:text-xl font-medium rounded-full hover:bg-opacity-90 transition-all duration-300 shadow-lg flex items-center"
-              style={{ fontFamily: "Stolzl, sans-serif",fontWeight:300 }}
+              className="mt-5 sm:mt-6 w-[300px] h-[66px] flex items-center justify-center rounded-[71px] bg-white text-[#242424] hover:bg-opacity-90 transition-all duration-300 shadow-lg"
+              style={{ 
+                fontFamily: "Stolzl, sans-serif",
+                fontWeight: 200,
+                fontSize: "24px",
+                lineHeight: "100%",
+                letterSpacing: "0%",
+                padding: "16px 50px",
+                gap: "10px"
+              }}
             >
               Get in Touch
-              <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
         </div>
