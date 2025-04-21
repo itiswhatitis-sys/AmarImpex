@@ -2,7 +2,7 @@ export default function FlashingSection() {
   return (
     <section className="w-full py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
-        <h2 className="text-3xl md:text-4xl font-medium text-left mb-8" style={{ fontFamily: "Stolzl, sans-serif" }}>
+        <h2 className="text-3xl md:text-4xl font-medium text-left mb-8 text-[#000000]" style={{ fontFamily: "Stolzl, sans-serif" }}>
           Flashing
         </h2>
 

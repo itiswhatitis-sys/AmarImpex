@@ -2,7 +2,7 @@ import { Target, Eye, Zap } from "lucide-react"
 
 export default function AboutValuesSection() {
   return (
-    <section className="w-full bg-white py-16 md:py-24">
+    <section className="w-full bg-white py-16 md:py-24 text-[#000000]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
         <div className="flex flex-col md:flex-row md:justify-between md:space-x-12 lg:space-x-24">
           {/* About Column - Left Aligned */}
@@ -15,10 +15,9 @@ export default function AboutValuesSection() {
             </h2>
 
             <p
-              className="text-base md:text-lg text-left"
+              className="text-base md:text-lg text-lef text-[24px] font-light "
               style={{
                 fontFamily: "Stolzl, sans-serif",
-                fontWeight: 300,
                 lineHeight: 1.6,
               }}
             >
@@ -32,7 +31,7 @@ export default function AboutValuesSection() {
           <div className="flex flex-col md:w-7/12">
             {/* CREATE VALUES */}
             <div className="flex items-start mb-8">
-              <div className="mr-4 mt-1">
+              <div className="mr-4 ">
                 <div className="p-2 rounded-full">
                   <Target className="h-6 w-6" />
                 </div>
@@ -42,7 +41,7 @@ export default function AboutValuesSection() {
                   CREATE VALUES
                 </h3>
                 <p
-                  className="text-base md:text-lg"
+                  className="text-base md:text-lg font-normal text-[#585858]"
                   style={{
                     fontFamily: "Stolzl, sans-serif",
                     fontWeight: 300,
@@ -62,7 +61,7 @@ export default function AboutValuesSection() {
 
             {/* OUR VISION */}
             <div className="flex items-start mb-8">
-              <div className="mr-4 mt-1">
+              <div className="mr-4">
                 <div className="p-2 rounded-full">
                   <Eye className="h-6 w-6" />
                 </div>
@@ -72,7 +71,7 @@ export default function AboutValuesSection() {
                   OUR VISION
                 </h3>
                 <p
-                  className="text-base md:text-lg"
+                  className="text-base md:text-lg font-normal text-[#585858]"
                   style={{
                     fontFamily: "Stolzl, sans-serif",
                     fontWeight: 300,
@@ -93,7 +92,7 @@ export default function AboutValuesSection() {
 
             {/* OUR MISSION */}
             <div className="flex items-start">
-              <div className="mr-4 mt-1">
+              <div className="mr-4 ">
                 <div className="p-2 rounded-full">
                   <Zap className="h-6 w-6" />
                 </div>
@@ -103,7 +102,7 @@ export default function AboutValuesSection() {
                   OUR MISSION
                 </h3>
                 <p
-                  className="text-base md:text-lg"
+                  className="text-base md:text-lg font-normal text-[#585858]" 
                   style={{
                     fontFamily: "Stolzl, sans-serif",
                     fontWeight: 300,

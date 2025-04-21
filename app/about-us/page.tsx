@@ -74,7 +74,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* What Sets Amar Impex Apart Section */}
-      <section className="w-full py-16 md:py-24 bg-white">
+      <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif" }}>
             What sets Amar Impex Apart
@@ -93,11 +93,11 @@ export default function AboutUsPage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+              <h3 className=" text-xl font-medium  mb-2 " style={{ fontFamily: "Stolzl, sans-serif" }}>
                 Quality Commitment
               </h3>
               <p
-                className="text-sm md:text-base max-w-xs"
+                className="text-sm md:text-base max-w-xs "
                 style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 Our products reflect a strong dedication to quality, meeting and often exceeding industry standards.
@@ -185,7 +185,7 @@ export default function AboutUsPage() {
           {/* Read More Button */}
           <div className="flex justify-center mt-12">
             <button
-              className="px-8 py-2 border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors"
+              className="px-8 py-2 border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors text-[#5E5E5E]"
               style={{ fontFamily: "Stolzl, sans-serif" }}
             >
               Read More
@@ -249,7 +249,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Our Values Section */}
-      <section className="w-full py-16 md:py-24 bg-white">
+      <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif" }}>
             Our Values
@@ -372,70 +372,43 @@ export default function AboutUsPage() {
       </div>
 
       {/* Our Purpose Section - Simplified implementation */}
-      <section className="w-full py-16 md:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
-          <h2
-            className="text-3xl md:text-4xl font-medium text-left mb-12 md:mb-16"
-            style={{ fontFamily: "Stolzl, sans-serif" }}
-          >
-            Our Purpose
-          </h2>
+      <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
+        <h2
+          className="text-3xl md:text-4xl font-medium text-left mb-12 md:mb-16"
+          style={{ fontFamily: "Stolzl, sans-serif" }}
+        >
+          Our Purpose
+        </h2>
 
-          <div className="max-w-3xl mx-auto md:mx-0">
-            <ul className="space-y-8 md:space-y-10 list-none pl-0">
-              <li className="flex items-start">
-                <span className="inline-block w-3 h-3 rounded-full bg-gray-300 mt-2 mr-4"></span>
+        <div className="max-w-3xl mx-auto md:mx-0 relative">
+          <ul className="relative list-none pl-0 border-l-2 border-gray-300 space-y-10">
+            {[
+              "Always stay a step ahead—better than the best.",
+              "Drive product innovation with cutting-edge technology.",
+              "Be transparent and dependable in everything we do.",
+              "Build long-term, trusted partnerships with our clients.",
+              "Stay focused on our vision with clarity and determination.",
+            ].map((text, index) => (
+              <li className="relative pl-8" key={index}>
+                {/* Dot on the line */}
+                <span className="absolute left-[-7px] top-1 w-3 h-3 bg-gray-300 rounded-full"></span>
                 <span
                   className="text-base md:text-lg"
-                  style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                  style={{
+                    fontFamily: "Stolzl, sans-serif",
+                    fontWeight: 300,
+                    lineHeight: 1.6,
+                  }}
                 >
-                  Always stay a step ahead—better than the best.
+                  {text}
                 </span>
               </li>
-
-              <li className="flex items-start">
-                <span className="inline-block w-3 h-3 rounded-full bg-gray-300 mt-2 mr-4"></span>
-                <span
-                  className="text-base md:text-lg"
-                  style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
-                >
-                  Drive product innovation with cutting-edge technology.
-                </span>
-              </li>
-
-              <li className="flex items-start">
-                <span className="inline-block w-3 h-3 rounded-full bg-gray-300 mt-2 mr-4"></span>
-                <span
-                  className="text-base md:text-lg"
-                  style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
-                >
-                  Be transparent and dependable in everything we do.
-                </span>
-              </li>
-
-              <li className="flex items-start">
-                <span className="inline-block w-3 h-3 rounded-full bg-gray-300 mt-2 mr-4"></span>
-                <span
-                  className="text-base md:text-lg"
-                  style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
-                >
-                  Build long-term, trusted partnerships with our clients.
-                </span>
-              </li>
-
-              <li className="flex items-start">
-                <span className="inline-block w-3 h-3 rounded-full bg-gray-300 mt-2 mr-4"></span>
-                <span
-                  className="text-base md:text-lg"
-                  style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
-                >
-                  Stay focused on our vision with clarity and determination.
-                </span>
-              </li>
-            </ul>
-          </div>
+            ))}
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
     </main>
   )
 }

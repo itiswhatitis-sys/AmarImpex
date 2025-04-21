@@ -44,7 +44,7 @@ export default function ProductsPage() {
             <div className="flex flex-col items-start max-w-full sm:max-w-2xl">
               {/* Heading */}
               <h1
-                className="text-white text-4xl sm:text-5xl md:text-6xl font-medium mb-4 sm:mb-6"
+                className="text-white text-4xl sm:text-5xl md:text-6xl font-medium mb-4 sm:mb-6 "
                 style={{ fontFamily: "Stolzl, sans-serif" }}
               >
                 Our Products
@@ -75,7 +75,7 @@ export default function ProductsPage() {
       <section className="w-full py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <h2
-            className="text-3xl md:text-4xl font-medium text-left mb-12 md:mb-16"
+            className="text-3xl md:text-4xl font-medium text-left mb-12 md:mb-16 text-[#000000]"
             style={{ fontFamily: "Stolzl, sans-serif" }}
           >
             Products

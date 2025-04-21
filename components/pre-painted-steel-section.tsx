@@ -6,7 +6,7 @@ export default function PrePaintedSteelSection() {
           {/* Components of pre-painted Steel */}
           <div>
             <h2
-              className="text-3xl md:text-4xl font-medium text-left mb-8"
+              className="text-3xl md:text-4xl font-medium text-left mb-8 text-[#000000]"
               style={{ fontFamily: "Stolzl, sans-serif" }}
             >
               Components of pre-painted Steel
@@ -23,12 +23,12 @@ export default function PrePaintedSteelSection() {
           {/* Technical Specifications Table */}
           <div>
             <h2
-              className="text-3xl md:text-4xl font-medium text-left mb-8"
+              className="text-3xl md:text-4xl font-medium text-left mb-8 text-[#000000]"
               style={{ fontFamily: "Stolzl, sans-serif" }}
             >
               Metal Roofs, Wall Panels & Accessories
             </h2>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto text-[#000000]">
               <table className="min-w-full border-collapse border border-gray-300">
                 <thead>
                   <tr className="bg-gray-100">
