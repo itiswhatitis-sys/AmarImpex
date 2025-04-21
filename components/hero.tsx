@@ -26,25 +26,24 @@ export default function Hero() {
           <div className="flex flex-col items-start max-w-4xl">
             {/* Responsive heading */}
             <h1 className="font-medium text-left" style={{ fontFamily: "Stolzl, sans-serif", lineHeight: 1.1 }}>
-              <span className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] block drop-shadow-lg">
-                Your Trusted Partner in
+              <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[64px] block drop-shadow-lg">
+              Your Trusted Partner in
               </span>
-              <span className="block mt-1 sm:mt-2">
-                <span className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] drop-shadow-lg">
-                  Premium{" "}
-                </span>
-                <span
-                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px]"
-                  style={{
-                    backgroundImage: "linear-gradient(to right, #8B87FF, #E31E25)",
-                    WebkitBackgroundClip: "text",
-                    backgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    textShadow: "0px 2px 4px rgba(0, 0, 0, 0.3)",
-                  }}
-                >
-                  Steel Solutions
-                </span>
+              <span className="block mt-1 sm:mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[70px]">
+              <span className="text-white drop-shadow-lg">
+                Premium{" "}
+              </span>
+              <span
+                style={{
+                backgroundImage: "linear-gradient(to right, #8B87FF, #E31E25)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                textShadow: "0px 2px 4px rgba(0, 0, 0, 0.3)",
+                }}
+              >
+                Steel Solutions
+              </span>
               </span>
             </h1>
 
