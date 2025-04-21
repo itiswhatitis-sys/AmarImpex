@@ -62,16 +62,16 @@ export default function OurSupplierPage() {
       </section>
 
       {/* Supplier List Section */}
-      <section className="w-full py-16 md:py-24 bg-white">
+      <section className="w-full  pt-16 pb-0 md:pt-24 md:pb-0 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8">
           <h2
-            className="text-3xl md:text-4xl font-medium text-center mb-10"
+            className="text-3xl md:text-4xl font-medium text-center mb-10 text-[#000000]"
             style={{ fontFamily: "Stolzl, sans-serif" }}
           >
             OUR MAJOR SUPPLIERS
           </h2>
 
-          <div className="space-y-4 text-center">
+          <div className="space-y-4 text-center text-[#5E5E5E]">
             <p className="text-base md:text-lg">Asian Colour Coated ISPAT Limited (ACCIL)</p>
             <p className="text-base md:text-lg">Bhushan Power and Steel Limited (BPSL)</p>
             <p className="text-base md:text-lg">JINDAL (India) Limited</p>
@@ -88,10 +88,10 @@ export default function OurSupplierPage() {
       </section>
 
       {/* Certificates Section */}
-      <section className="w-full py-12 md:py-20 bg-gray-50">
+      <section className="w-full pt-4 pb-12 md:pt-4 md:pb-20  bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <h2
-            className="text-2xl sm:text-3xl md:text-4xl font-medium text-center mb-8 md:mb-12"
+            className="text-2xl sm:text-3xl md:text-4xl font-medium text-center mb-8 md:mb-12 text-[#000000]"
             style={{ fontFamily: "Stolzl, sans-serif" }}
           >
             Certificates
