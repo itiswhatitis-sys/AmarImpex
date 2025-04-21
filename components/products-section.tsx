@@ -20,7 +20,7 @@ export default function ProductsSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
         <h2
           className="text-3xl md:text-4xl font-medium text-white mb-8 md:mb-10 text-left"
-          style={{ fontFamily: "Stolzl, sans-serif" }}
+          style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 300 }}
         >
           OUR PRODUCTS
         </h2>
@@ -28,22 +28,22 @@ export default function ProductsSection() {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
             {/* COLOR COATED STEEL COILS */}
-            <div className="bg-[#1E1E1E] rounded-md overflow-hidden w-full max-w-[280px] mx-auto">
+            <div className="bg-[#1E1E1E] rounded-md overflow-hidden w-full max-w-[280px] mx-auto ">
               <div className="aspect-square p-3">
                 <div className="w-full h-full overflow-hidden">
                   <img
                     src="/images/color-coated-steel-coils.png"
                     alt="Color Coated Steel Coils"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover "
                   />
                 </div>
               </div>
               <div className="p-3">
-                <h3 className="text-xs font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   COLOR COATED STEEL COILS
                 </h3>
                 <p
-                  className="text-gray-400 text-[10px] leading-relaxed"
+                  className="text-gray-400 text-[11px] leading-relaxed "
                   style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300 }}
                 >
                   Coil coating or colour coated coils is the most advanced of techniques used in the continuous
@@ -61,11 +61,11 @@ export default function ProductsSection() {
                 </div>
               </div>
               <div className="p-3">
-                <h3 className="text-xs font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   GP/GI COIL
                 </h3>
                 <p
-                  className="text-gray-400 text-[10px] leading-relaxed"
+                  className="text-gray-400 text-[11px]  leading-relaxed"
                   style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300 }}
                 >
                   GI Coil are mainly used for automobile muffler venting, ventilation, air-conditioning, to use flat
@@ -87,11 +87,11 @@ export default function ProductsSection() {
                 </div>
               </div>
               <div className="p-3">
-                <h3 className="text-xs font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   BAREGALVALUME STEEL
                 </h3>
                 <p
-                  className="text-gray-400 text-[10px] leading-relaxed"
+                  className="text-gray-400 text-[11px]  leading-relaxed"
                   style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300 }}
                 >
                   Amar Impex is leading supplier of Bare Galvalume Steel Coils and sheets. Galvalume sheets are
@@ -113,11 +113,11 @@ export default function ProductsSection() {
                 </div>
               </div>
               <div className="p-3">
-                <h3 className="text-xs font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   AMAR FLEXI PROFILE
                 </h3>
                 <p
-                  className="text-gray-400 text-[10px] leading-relaxed"
+                  className="text-gray-400 text-[11px]  leading-relaxed"
                   style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300 }}
                 >
                   Amar Flexi Profile is trapezoidal in shape and has better stiffness and strength. It is best suited
@@ -139,11 +139,11 @@ export default function ProductsSection() {
                 </div>
               </div>
               <div className="p-3">
-                <h3 className="text-xs font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   AMAR TILE PROFILE
                 </h3>
                 <p
-                  className="text-gray-400 text-[10px] leading-relaxed"
+                  className="text-gray-400 text-[11px]  leading-relaxed"
                   style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300 }}
                 >
                   Amar Tile Profile sheets offer excellent aesthetics without compromising the traditional look. It is
@@ -165,11 +165,11 @@ export default function ProductsSection() {
                 </div>
               </div>
               <div className="p-3">
-                <h3 className="text-xs font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   AMAR CORRUGATION PROFILE
                 </h3>
                 <p
-                  className="text-gray-400 text-[10px] leading-relaxed"
+                  className="text-gray-400 text-[11px]  leading-relaxed"
                   style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300 }}
                 >
                   Amar Corrugation Profile is a standard wave profile offers cost effective solution for roofing and

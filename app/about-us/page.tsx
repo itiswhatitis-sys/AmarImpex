@@ -43,7 +43,7 @@ export default function AboutUsPage() {
               {/* Heading */}
               <h1
                 className="text-white text-4xl sm:text-5xl md:text-6xl font-medium mb-2 sm:mb-3"
-                style={{ fontFamily: "Stolzl, sans-serif" }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight:400 }}
               >
                 About Us
               </h1>
@@ -53,15 +53,15 @@ export default function AboutUsPage() {
                 className="text-white text-sm sm:text-base md:text-lg leading-relaxed"
                 style={{
                   fontFamily: "'Stolzl', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-                  fontWeight: 300,
+                  fontWeight: 200,
                   WebkitFontSmoothing: "antialiased",
                   lineHeight: 1.5,
                 }}
               >
                 AMAR IMPEX, established in 1998 and headquartered in Chennai with branches in
-                <span className="font-medium"> Coimbatore </span>
+                <span className="text-white font-extrabold"> Coimbatore </span>
                 and
-                <span className="font-medium"> Vizag</span>, is a quality-driven organization
+                <span className="text-white font-extrabold"> Vizag</span>, is a quality-driven organization
                 <span className="font-medium">
                   {" "}
                   specializing in the supply, trade, and custom conversion of Color Coated Steel Coils and GP Coils{" "}
@@ -76,7 +76,7 @@ export default function AboutUsPage() {
       {/* What Sets Amar Impex Apart Section */}
       <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif" }}>
+          <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif", fontWeight:400}}>
             What sets Amar Impex Apart
           </h2>
 
@@ -98,7 +98,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs "
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 Our products reflect a strong dedication to quality, meeting and often exceeding industry standards.
               </p>
@@ -121,7 +121,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 We actively pursue forward-thinking approaches to deliver effective, future-ready solutions.
               </p>
@@ -144,7 +144,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 With 25+ years in the industry, our deep knowledge and proven track record place us among the most
                 trusted names.
@@ -174,7 +174,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 With branches in Chennai, Coimbatore, and Salem, we ensure prompt service and reliable support across
                 the country.
@@ -215,7 +215,7 @@ export default function AboutUsPage() {
             <div className="p-6 sm:p-8 md:p-12 lg:p-16">
               <h2
                 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-4 sm:mb-6 text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif" }}
+                style={{ fontFamily: "Stolzl, sans-serif" ,fontWeight: 400}}
               >
                 Our Vision
               </h2>
@@ -232,7 +232,7 @@ export default function AboutUsPage() {
             <div className="p-6 sm:p-8 md:p-12 lg:p-16">
               <h2
                 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-4 sm:mb-6 text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif" }}
+                style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400 }}
               >
                 Our Mission
               </h2>
@@ -251,7 +251,7 @@ export default function AboutUsPage() {
       {/* Our Values Section */}
       <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif" }}>
+          <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400 }}>
             Our Values
           </h2>
 
@@ -276,7 +276,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 Our clients are the core of our business. We strive to set new benchmarks in service excellence and
                 customer satisfaction.
@@ -303,7 +303,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 We consistently deliver value to the roofing and white goods industries through innovative solutions,
                 supported by real-world samples and results.
@@ -330,7 +330,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 We stand by every commitment we make, ensuring trust and reliability in every interaction.
               </p>
@@ -356,7 +356,7 @@ export default function AboutUsPage() {
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
               >
                 We operate with integrity—upholding trust, honesty, dedication, accountability, teamwork, knowledge,
                 quality, and a strong desire to excel.
@@ -364,19 +364,20 @@ export default function AboutUsPage() {
             </div>
           </div>
         </div>
+        {/* Divider */}
+        <div className="pt-20">
+                    <img src="/images/divider-line.png" alt="Divider" className="max-w-5xl mx-auto h-auto" />
+         </div>
       </section>
 
-      {/* Dividing Line between Values and Purpose */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 py-4">
-        <img src="/images/divider-line.png" alt="Divider" className="w-full h-auto" />
-      </div>
+     
 
       {/* Our Purpose Section - Simplified implementation */}
-      <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
+      <section className="w-full pb-20 md-pb-25 bg-white text-[#000000]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
         <h2
           className="text-3xl md:text-4xl font-medium text-left mb-12 md:mb-16"
-          style={{ fontFamily: "Stolzl, sans-serif" }}
+          style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400 }}
         >
           Our Purpose
         </h2>

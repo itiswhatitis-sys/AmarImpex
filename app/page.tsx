@@ -12,10 +12,10 @@ export default function Home() {
       <ProductsSection />
       <SuppliersSection />
 
-      {/* Divider line between Suppliers and Portfolio */}
+      {/* Divider line between Suppliers and Portfolio
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 py-4">
         <img src="/images/divider-line.png" alt="Divider" className="w-full h-auto" />
-      </div>
+      </div> */}
 
       <PortfolioSection />
     </main>

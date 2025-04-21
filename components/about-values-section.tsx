@@ -1,4 +1,4 @@
-import { Target, Eye, Zap } from "lucide-react"
+import { Target, Eye, Zap, Trophy } from "lucide-react"
 
 export default function AboutValuesSection() {
   return (
@@ -17,9 +17,10 @@ export default function AboutValuesSection() {
             </h2>
 
             <p
-              className=" md:text-lg text-base font-light text-left"
+              className=" md:text-lg text-base text-left"
               style={{
                 fontFamily: "Stolzl, sans-serif",
+                fontWeight: 100,
                 lineHeight: 1.6
               }}
             >
@@ -35,7 +36,7 @@ export default function AboutValuesSection() {
             <div className="flex items-start mb-8">
               <div className="mr-4 ">
                 <div className="p-2 rounded-full">
-                  <Target className="h-6 w-6" />
+                  <Trophy className="h-6 w-6" />
                 </div>
               </div>
               <div>

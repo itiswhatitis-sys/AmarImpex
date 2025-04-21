@@ -67,7 +67,7 @@ export default function Hero() {
             <Link
               href="/contact-us"
               className="mt-5 sm:mt-6 px-6 sm:px-8 py-3 bg-white text-[#242424] text-base sm:text-lg md:text-xl font-medium rounded-full hover:bg-opacity-90 transition-all duration-300 shadow-lg flex items-center"
-              style={{ fontFamily: "Stolzl, sans-serif" }}
+              style={{ fontFamily: "Stolzl, sans-serif",fontWeight:300 }}
             >
               Get in Touch
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />

@@ -5,6 +5,8 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { Facebook, Instagram, Linkedin } from "lucide-react"
 import Link from "next/link"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"
 
 export default function ContactUsPage() {
   // Ensure page starts at the top when navigated to
@@ -61,15 +63,15 @@ export default function ContactUsPage() {
                 </h3>
                 <div className="space-y-1 text-xs">
                   <p>
-                    <span className="font-medium">HQ: </span>
+                    <span className="text-sm font-extrabold">HQ: </span>
                     Arihant Plaza 1st Floor No.84/85, Wall Tax Road, Park Town, Chennai-600003
                   </p>
                   <p>
-                    <span className="font-medium">FA: </span>
+                    <span className="text-sm font-extrabold">FA: </span>
                     No.200, Madhavaram High Road, Madhavaram, Chennai-600060
                   </p>
                   <p>
-                    <span className="font-medium">CBE: </span>
+                    <span className="text-sm font-extrabold">CBE: </span>
                     104/1, Bay 6, F.G.P. Industries, Sathy Road, Saravanampatti, Coimbatore- 641035
                   </p>
                 </div>
@@ -110,6 +112,9 @@ export default function ContactUsPage() {
                     <Instagram size={18} />
                   </Link>
                   <Link href="#" className="hover:text-gray-300 transition-colors">
+              <FontAwesomeIcon icon={faXTwitter}  style={{ fontSize: 18 }} />
+              </Link>
+                  <Link href="#" className="hover:text-gray-300 transition-colors">
                     <Linkedin size={18} />
                   </Link>
                 </div>
@@ -117,7 +122,7 @@ export default function ContactUsPage() {
             </div>
           </div>
 
-          {/* Right Column - Contact Form */}
+         {/* Right Column - Contact Form */}
           <div className="md:w-7/12 lg:w-8/12">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -132,7 +137,7 @@ export default function ContactUsPage() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                    className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                   />
                 </div>
                 <div>
@@ -146,7 +151,7 @@ export default function ContactUsPage() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                    className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                   />
                 </div>
               </div>
@@ -162,7 +167,7 @@ export default function ContactUsPage() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                  className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                 />
               </div>
 
@@ -177,7 +182,7 @@ export default function ContactUsPage() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                  className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                 />
               </div>
 
@@ -192,7 +197,7 @@ export default function ContactUsPage() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                  className="w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                 ></textarea>
               </div>
 

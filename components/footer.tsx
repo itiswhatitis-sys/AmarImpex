@@ -1,6 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Twitter, Linkedin } from "lucide-react"
+import { Facebook, Twitter, Linkedin, X } from "lucide-react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -26,24 +28,25 @@ export default function Footer() {
           {/* Our products */}
           <div>
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Our products</h3>
-            <ul className="space-y-2 text-sm">
+            <div className=" text-xs">
+                <ul className="space-y-2 text-sm ">
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span>GP COILS / SHEETS</span>
+                <span className=" text-xs font-extralight">GP COILS / SHEETS</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span>AMAR FLEXI PROFILE</span>
+                <span className=" text-xs font-extralight">AMAR FLEXI PROFILE</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span>AMAR TILE PROFILE</span>
+                <span className=" text-xs font-extralight">AMAR TILE PROFILE</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span>AMAR CORRUGATION PROFILE</span>
+                <span className=" text-xs font-extralight">AMAR CORRUGATION PROFILE</span>
               </li>
-            </ul>
+            </ul></div>
           </div>
 
           {/* Quick links */}
@@ -51,32 +54,32 @@ export default function Footer() {
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Quick links</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-center">
-                <span className="mr-2">•</span>
-                <Link href="/" className="hover:text-gray-300 transition-colors">
+                <span className="mr-2 ">•</span>
+                <Link href="/" className="hover:text-gray-300 transition-colors text-xs font-extralight ">
                   HOME
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/about-us" className="hover:text-gray-300 transition-colors">
+                <Link href="/about-us" className="hover:text-gray-300 transition-colors text-xs font-extralight">
                   ABOUT US
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/products" className="hover:text-gray-300 transition-colors">
+                <Link href="/products" className="hover:text-gray-300 transition-colors text-xs font-extralight">
                   PRODUCTS
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/our-supplier" className="hover:text-gray-300 transition-colors">
+                <Link href="/our-supplier" className="hover:text-gray-300 transition-colors text-xs font-extralight ">
                   MAJOR SUPPLIERS
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/contact-us" className="hover:text-gray-300 transition-colors">
+                <Link href="/contact-us" className="hover:text-gray-300 transition-colors text-xs font-extralight">
                   CONTACT US
                 </Link>
               </li>
@@ -91,10 +94,10 @@ export default function Footer() {
                 <Facebook size={24} />
               </Link>
               <Link href="#" className="hover:text-gray-300 transition-colors">
-                <Twitter size={24} />
+              <FontAwesomeIcon icon={faXTwitter}  style={{ fontSize: 24 }} />
               </Link>
               <Link href="#" className="hover:text-gray-300 transition-colors">
-                <Linkedin size={24} />
+              <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: 24 }} />
               </Link>
             </div>
           </div>
@@ -115,7 +118,7 @@ export default function Footer() {
           {/* Locations */}
           <div>
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Locations</h3>
-            <div className="space-y-3 text-sm">
+            <div className="space-y-3  text-xs font-extralight">
               <p>ARIHANT PLAZA 1ST FLOOR NO.84/85, WALL TAX ROAD PARK TOWN, CHENNAI 600003</p>
               <p>KKR GARDEN, MADHAVARAM, CHENNAI, TAMIL NADU 600118</p>
               <p>NO 239/2A-2B, BOMMINAICHENPATTY POST, MUTHUNAICKENPATTY, OMALUR TALUK, SALEM - 636304</p>
@@ -126,7 +129,7 @@ export default function Footer() {
           {/* Contacts */}
           <div>
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Contacts</h3>
-            <div className="space-y-3 text-sm">
+            <div className="space-y-3  text-xs font-extralight">
               <p>AMARIMPEX2015@GMAIL.COM</p>
               <p>INFO@AMARIMPEXROOFS.COM</p>
               <p>+91-44-42113190</p>

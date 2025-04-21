@@ -18,7 +18,7 @@ export default function ColorChartSection() {
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6">
         <h2
           className="text-3xl md:text-4xl font-medium text-white text-left mb-8"
-          style={{ fontFamily: "Stolzl, sans-serif" }}
+          style={{ fontFamily: "Stolzl, sans-serif",fontWeight : 400 }}
         >
           Colour Chart
         </h2>

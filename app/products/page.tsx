@@ -45,7 +45,7 @@ export default function ProductsPage() {
               {/* Heading */}
               <h1
                 className="text-white text-4xl sm:text-5xl md:text-6xl font-medium mb-4 sm:mb-6 "
-                style={{ fontFamily: "Stolzl, sans-serif" }}
+                style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400}}
               >
                 Our Products
               </h1>
@@ -55,13 +55,13 @@ export default function ProductsPage() {
                 className="text-white text-sm sm:text-base md:text-lg leading-relaxed mb-3"
                 style={{
                   fontFamily: "'Stolzl', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-                  fontWeight: 300,
+                  fontWeight: 200,
                   WebkitFontSmoothing: "antialiased",
                   lineHeight: 1.6,
                 }}
               >
                 At Amar Impex, <span className="font-medium">we deliver premium-quality</span> goods crafted for{" "}
-                <span className="font-medium">reliability, performance, and value.</span> From sourcing to shipment,
+                <span className="text-white font-extrabold">reliability, performance, and value.</span> From sourcing to shipment,
                 each product reflects our commitment to excellence and global standards.{" "}
                 <span className="font-medium">Explore</span> our range designed to meet the evolving needs of industries
                 worldwide.
@@ -76,7 +76,7 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <h2
             className="text-3xl md:text-4xl font-medium text-left mb-12 md:mb-16 text-[#000000]"
-            style={{ fontFamily: "Stolzl, sans-serif" }}
+            style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400 }}
           >
             Products
           </h2>
@@ -92,14 +92,16 @@ export default function ProductsPage() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="md:w-[65%] lg:w-[70%] p-6">
-                  <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
+                  <h3 className="text-[#E31E25] text-xl font-medium " style={{ fontFamily: "Stolzl, sans-serif" }}>
                     Color Coated Steel Coils
                   </h3>
-                  <p className="text-sm md:text-base text-gray-800">
+                  
+                  <p className="text-xs mt-2 md:text-base text-gray-800">
                     Coil coating or colour coated coils is the most advanced of techniques used in the continuous
                     application of an organic coating on to a flat metal substrate in the coil form.
-                  </p>
+                  </p></div>
                 </div>
               </div>
             </div>
@@ -110,7 +112,8 @@ export default function ProductsPage() {
                 <div className="md:w-[35%] lg:w-[30%] p-4 flex items-center justify-center">
                   <img src="/images/gp-gi-coil.png" alt="GP/GI Coil" className="w-full h-auto object-contain" />
                 </div>
-                <div className="md:w-[65%] lg:w-[70%] p-6">
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
                   <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                     GP/GI Coil
                   </h3>
@@ -119,7 +122,7 @@ export default function ProductsPage() {
                     sheet and the proof. we are offering a broad collection of GI Coil that are sourced from the reputed
                     vendors.
                   </p>
-                </div>
+                </div></div>
               </div>
             </div>
 
@@ -133,7 +136,8 @@ export default function ProductsPage() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="md:w-[65%] lg:w-[70%] p-6">
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex item-center">
+                <div className="flex flex-col justify-center">
                   <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                     Bare/Galvalume (BGL) Steel
                   </h3>
@@ -142,7 +146,7 @@ export default function ProductsPage() {
                     corrosion resistant. They are widely used where material should not get rust. Applications: Building
                     & Automotive Industry, Solar Industry, etc.
                   </p>
-                </div>
+                </div> </div>
               </div>
             </div>
 
@@ -156,7 +160,8 @@ export default function ProductsPage() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="md:w-[65%] lg:w-[70%] p-6">
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
                   <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                     AMAR FLEXI PROFILE
                   </h3>
@@ -165,7 +170,7 @@ export default function ProductsPage() {
                     for areas of heavy rainfall. It has Anti Capillary Groove to prevent water leakage in the lapping of
                     sheets.
                   </p>
-                </div>
+                </div></div>
               </div>
             </div>
 
@@ -179,7 +184,8 @@ export default function ProductsPage() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="md:w-[65%] lg:w-[70%] p-6">
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
                   <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                     AMAR TILE PROFILE
                   </h3>
@@ -188,7 +194,7 @@ export default function ProductsPage() {
                     lightweight, cost-effective and easy to fix. It has Anti Capillary Groove to prevent water leakage
                     in the lapping of sheets.
                   </p>
-                </div>
+                </div></div>
               </div>
             </div>
 
@@ -202,7 +208,8 @@ export default function ProductsPage() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="md:w-[65%] lg:w-[70%] p-6">
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
                   <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                     AMAR CORRUGATION PROFILE
                   </h3>
@@ -211,7 +218,7 @@ export default function ProductsPage() {
                     cladding applications. Color coating improves the aesthetics and metallic coating offers CORROSION
                     and WEATHER protection.
                   </p>
-                </div>
+                </div></div>
               </div>
             </div>
           </div>
@@ -229,7 +236,7 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <h2
             className="text-3xl md:text-4xl font-medium text-white text-left mb-12 md:mb-16"
-            style={{ fontFamily: "Stolzl, sans-serif" }}
+            style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 400 }}
           >
             Process Flow
           </h2>

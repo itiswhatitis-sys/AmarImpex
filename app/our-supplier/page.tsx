@@ -50,7 +50,7 @@ export default function OurSupplierPage() {
         {/* Supplier Logos Banner - Improved responsive centering */}
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-center">
-            <div className="bg-white bg-opacity-75 rounded-3xl p-4 sm:p-6 md:p-8 w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-5xl flex items-center justify-center">
+            <div className="bg-white bg-opacity-80 rounded-3xl p-4 sm:p-6 md:p-8 w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-5xl flex items-center justify-center">
               <img
                 src="/images/supplier-logos-collection.png"
                 alt="Our Suppliers: ACCIL, Bhushan Power & Steel, Jindal, JSW Steel, POSCO, AM/NS INDIA"
@@ -66,7 +66,7 @@ export default function OurSupplierPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8">
           <h2
             className="text-3xl md:text-4xl font-medium text-center mb-10 text-[#000000]"
-            style={{ fontFamily: "Stolzl, sans-serif" }}
+            style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400 }}
           >
             OUR MAJOR SUPPLIERS
           </h2>
@@ -92,7 +92,7 @@ export default function OurSupplierPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <h2
             className="text-2xl sm:text-3xl md:text-4xl font-medium text-center mb-8 md:mb-12 text-[#000000]"
-            style={{ fontFamily: "Stolzl, sans-serif" }}
+            style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400 }}
           >
             Certificates
           </h2>
