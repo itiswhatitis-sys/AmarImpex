@@ -8,17 +8,19 @@ export default function AboutValuesSection() {
           {/* About Column - Left Aligned */}
           <div className="flex flex-col items-start mb-12 md:mb-0 md:w-5/12">
             <h2
-              className="text-2xl sm:text-3xl md:text-4xl font-medium text-left mb-6 md:mb-8"
-              style={{ fontFamily: "Stolzl, sans-serif" }}
+              className="text-2xl sm:text-3xl md:text-4xl text-left mb-6 md:mb-8"
+              style={{ fontFamily: "Stolzl, sans-serif",
+                      fontWeight: 400
+               }}
             >
               ABOUT AMAR IMPEX
             </h2>
 
             <p
-              className="text-base md:text-lg text-lef text-[24px] font-light "
+              className=" md:text-lg text-base font-light text-left"
               style={{
                 fontFamily: "Stolzl, sans-serif",
-                lineHeight: 1.6,
+                lineHeight: 1.6
               }}
             >
               Amar Impex is redefining the roofing and white goods industry with innovative, future-ready solutions.

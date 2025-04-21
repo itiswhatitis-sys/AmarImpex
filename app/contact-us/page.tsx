@@ -44,17 +44,17 @@ export default function ContactUsPage() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col pt-20">
+    <main className="flex min-h-screen flex-col pt-20 bg-white">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 py-16 md:py-24">
         <div className="flex flex-col md:flex-row gap-8 md:gap-16">
-          {/* Left Column - Contact Information - Reduced spacing and content size */}
+          {/* Left Column - Contact Information */}
           <div className="md:w-5/12 lg:w-4/12">
             <div className="bg-[#990000] text-white p-6 md:p-8 rounded-2xl flex flex-col">
               <h2 className="text-xl font-medium mb-5" style={{ fontFamily: "Stolzl, sans-serif" }}>
                 Get in Touch
               </h2>
 
-              {/* Visit us - Reduced spacing */}
+              {/* Visit us */}
               <div className="mb-5">
                 <h3 className="text-base font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   Visit us
@@ -75,7 +75,7 @@ export default function ContactUsPage() {
                 </div>
               </div>
 
-              {/* Chat with us - Reduced spacing */}
+              {/* Chat with us */}
               <div className="mb-5">
                 <h3 className="text-base font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   Chat with us
@@ -86,7 +86,7 @@ export default function ContactUsPage() {
                 </div>
               </div>
 
-              {/* Call us - Reduced spacing */}
+              {/* Call us */}
               <div className="mb-5">
                 <h3 className="text-base font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   Call us
@@ -97,7 +97,7 @@ export default function ContactUsPage() {
                 </div>
               </div>
 
-              {/* Follow Us On - No longer pushed to bottom */}
+              {/* Follow Us On */}
               <div>
                 <h3 className="text-base font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                   Follow Us On
@@ -132,7 +132,7 @@ export default function ContactUsPage() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                    className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                   />
                 </div>
                 <div>
@@ -146,7 +146,7 @@ export default function ContactUsPage() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                    className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                   />
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function ContactUsPage() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                  className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                 />
               </div>
 
@@ -177,7 +177,7 @@ export default function ContactUsPage() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                  className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                 />
               </div>
 
@@ -192,7 +192,7 @@ export default function ContactUsPage() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
+                  className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-[#990000] focus:border-[#990000]"
                 ></textarea>
               </div>
 
