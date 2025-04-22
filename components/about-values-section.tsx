@@ -20,7 +20,7 @@ export default function AboutValuesSection() {
               className=" md:text-lg text-base text-left"
               style={{
                 fontFamily: "Stolzl, sans-serif",
-                fontWeight: 100,
+                fontWeight: 300,
                 lineHeight: 1.6
               }}
             >

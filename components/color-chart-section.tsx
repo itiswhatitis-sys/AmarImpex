@@ -15,7 +15,7 @@ export default function ColorChartSection() {
         <img src="/images/dark-overlay.png" alt="" className="w-full h-full object-cover" aria-hidden="true" />
       </div>
 
-      <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
         <h2
           className="text-3xl md:text-4xl font-medium text-white text-left mb-8"
           style={{ fontFamily: "Stolzl, sans-serif",fontWeight : 400 }}
@@ -24,7 +24,7 @@ export default function ColorChartSection() {
         </h2>
 
         {/* Color chart grid - Matching the reference image layout */}
-        <div className="w-full space-y-4">
+        <div className="w-full space-y-4 px-4 ">
           {/* First Row - 3 equal columns */}
           <div className="grid grid-cols-12 gap-2">
             <div className="col-span-4 h-12 flex items-center pl-4" style={{ backgroundColor: "#4A90E2" }}>

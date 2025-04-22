@@ -28,25 +28,24 @@ export default function Footer() {
           {/* Our products */}
           <div>
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Our products</h3>
-            <div className=" text-xs">
                 <ul className="space-y-2 text-sm ">
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span className=" text-xs font-extralight">GP COILS / SHEETS</span>
+                <span className=" text-sm font-light">GP COILS / SHEETS</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span className=" text-xs font-extralight">AMAR FLEXI PROFILE</span>
+                <span className=" text-sm font-light">AMAR FLEXI PROFILE</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span className=" text-xs font-extralight">AMAR TILE PROFILE</span>
+                <span className=" text-sm font-light">AMAR TILE PROFILE</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span className=" text-xs font-extralight">AMAR CORRUGATION PROFILE</span>
+                <span className=" text-sm font-light">AMAR CORRUGATION PROFILE</span>
               </li>
-            </ul></div>
+            </ul>
           </div>
 
           {/* Quick links */}
@@ -55,31 +54,31 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center">
                 <span className="mr-2 ">•</span>
-                <Link href="/" className="hover:text-gray-300 transition-colors text-xs font-extralight ">
+                <Link href="/" className="hover:text-gray-300 transition-colors text-sm font-light ">
                   HOME
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/about-us" className="hover:text-gray-300 transition-colors text-xs font-extralight">
+                <Link href="/about-us" className="hover:text-gray-300 transition-colors text-sm font-light">
                   ABOUT US
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/products" className="hover:text-gray-300 transition-colors text-xs font-extralight">
+                <Link href="/products" className="hover:text-gray-300 transition-colors text-sm font-light">
                   PRODUCTS
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/our-supplier" className="hover:text-gray-300 transition-colors text-xs font-extralight ">
+                <Link href="/our-supplier" className="hover:text-gray-300 transition-colors text-xs font-light ">
                   MAJOR SUPPLIERS
                 </Link>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <Link href="/contact-us" className="hover:text-gray-300 transition-colors text-xs font-extralight">
+                <Link href="/contact-us" className="hover:text-gray-300 transition-colors text-xs font-light">
                   CONTACT US
                 </Link>
               </li>
@@ -118,7 +117,7 @@ export default function Footer() {
           {/* Locations */}
           <div>
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Locations</h3>
-            <div className="space-y-3  text-xs font-extralight">
+            <div className="space-y-3  text-sm font-light">
               <p>ARIHANT PLAZA 1ST FLOOR NO.84/85, WALL TAX ROAD PARK TOWN, CHENNAI 600003</p>
               <p>KKR GARDEN, MADHAVARAM, CHENNAI, TAMIL NADU 600118</p>
               <p>NO 239/2A-2B, BOMMINAICHENPATTY POST, MUTHUNAICKENPATTY, OMALUR TALUK, SALEM - 636304</p>
@@ -129,7 +128,7 @@ export default function Footer() {
           {/* Contacts */}
           <div>
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Contacts</h3>
-            <div className="space-y-3  text-xs font-extralight">
+            <div className="space-y-3 text-sm font-light">
               <p>AMARIMPEX2015@GMAIL.COM</p>
               <p>INFO@AMARIMPEXROOFS.COM</p>
               <p>+91-44-42113190</p>

@@ -41,10 +41,10 @@ export default function ProductsPage() {
         {/* Content - Positioned at bottom center */}
         <div className="absolute bottom-0 left-0 right-0 z-20 w-full">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 pb-16 sm:pb-20">
-            <div className="flex flex-col items-start max-w-full sm:max-w-2xl">
+            <div className="flex flex-col items-start max-w-full sm:max-w-4xl">
               {/* Heading */}
               <h1
-                className="text-white text-4xl sm:text-5xl md:text-6xl font-medium mb-4 sm:mb-6 "
+                className="text-white text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 "
                 style={{ fontFamily: "Stolzl, sans-serif",fontWeight: 400}}
               >
                 Our Products
@@ -55,13 +55,13 @@ export default function ProductsPage() {
                 className="text-white text-sm sm:text-base md:text-lg leading-relaxed mb-3"
                 style={{
                   fontFamily: "'Stolzl', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-                  fontWeight: 200,
+                  fontWeight: 300,
                   WebkitFontSmoothing: "antialiased",
                   lineHeight: 1.6,
                 }}
               >
                 At Amar Impex, <span className="font-medium">we deliver premium-quality</span> goods crafted for{" "}
-                <span className="text-white font-extrabold">reliability, performance, and value.</span> From sourcing to shipment,
+                <span className="text-white font-medium">reliability, performance, and value.</span> From sourcing to shipment,
                 each product reflects our commitment to excellence and global standards.{" "}
                 <span className="font-medium">Explore</span> our range designed to meet the evolving needs of industries
                 worldwide.

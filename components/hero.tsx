@@ -49,9 +49,10 @@ export default function Hero() {
 
             {/* Description text with Figma specifications */}
             <p
-              className="mt-4 sm:mt-6 text-sm sm:text-md md:text-lg lg:text-xl xl:text-[32px] max-w-2xl drop-shadow-md"
+              className="mt-4 sm:mt-6 text-sm sm:text-md md:text-lg lg:text-[24px] max-w-2xl drop-shadow-md"
               style={{
               fontFamily: "Stolzl, sans-serif",
+              fontWeight: 300,
               lineHeight: "170%",
               color: "#E6E6E6",
               letterSpacing: "0%",
@@ -70,7 +71,7 @@ export default function Hero() {
               className="mt-5 sm:mt-6 w-[300px] h-[66px] flex items-center justify-center rounded-[71px] bg-white text-[#242424] hover:bg-opacity-90 transition-all duration-300 shadow-lg"
               style={{ 
                 fontFamily: "Stolzl, sans-serif",
-                fontWeight: 200,
+                fontWeight: 300,
                 fontSize: "24px",
                 lineHeight: "100%",
                 letterSpacing: "0%",

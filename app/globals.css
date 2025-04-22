@@ -82,7 +82,31 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Stolzl";
+  src: url("/fonts/Stolzl-Thin.woff2") format("woff2"),
+       url("/fonts/Stolzl-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: "Stolzl";
+  src: url("/fonts/Stolzl-Light.woff2") format("woff2"),
+       url("/fonts/Stolzl-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url("/fonts/Stolzl-Regular.woff2") format("woff2"),
+       url("/fonts/Stolzl-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 .font-stolzl {
   font-family: "Stolzl", sans-serif;
 }

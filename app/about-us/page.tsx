@@ -39,7 +39,7 @@ export default function AboutUsPage() {
         {/* Content */}
         <div className="absolute bottom-0 left-0 right-0 z-20 w-full">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 pb-16 sm:pb-20">
-            <div className="flex flex-col items-start max-w-full sm:max-w-2xl">
+            <div className="flex flex-col items-start max-w-full sm:max-w-3xl ">
               {/* Heading */}
               <h1
                 className="text-white text-4xl sm:text-5xl md:text-6xl font-medium mb-2 sm:mb-3"
@@ -50,16 +50,16 @@ export default function AboutUsPage() {
 
               {/* Description text */}
               <p
-                className="text-white text-sm sm:text-base md:text-lg leading-relaxed"
+                className="text-white text-sm sm:text-base md:text-lg leading-relaxed "
                 style={{
                   fontFamily: "'Stolzl', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-                  fontWeight: 200,
+                  fontWeight: 300,
                   WebkitFontSmoothing: "antialiased",
                   lineHeight: 1.5,
                 }}
               >
                 AMAR IMPEX, established in 1998 and headquartered in Chennai with branches in
-                <span className="text-white font-extrabold"> Coimbatore </span>
+                <span className="text-white font-normal"> Coimbatore </span>
                 and
                 <span className="text-white font-extrabold"> Vizag</span>, is a quality-driven organization
                 <span className="font-medium">
@@ -76,7 +76,7 @@ export default function AboutUsPage() {
       {/* What Sets Amar Impex Apart Section */}
       <section className="w-full py-16 md:py-24 bg-white text-[#000000]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-medium text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif", fontWeight:400}}>
+          <h2 className="text-3xl md:text-4xl font-normal text-left mb-16" style={{ fontFamily: "Stolzl, sans-serif", fontWeight:400}}>
             What sets Amar Impex Apart
           </h2>
 
@@ -93,12 +93,12 @@ export default function AboutUsPage() {
                   />
                 </svg>
               </div>
-              <h3 className=" text-xl font-medium  mb-2 " style={{ fontFamily: "Stolzl, sans-serif" }}>
+              <h3 className=" text-xl font-normal mb-2 " style={{ fontFamily: "Stolzl, sans-serif" }}>
                 Quality Commitment
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs "
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 Our products reflect a strong dedication to quality, meeting and often exceeding industry standards.
               </p>
@@ -116,12 +116,12 @@ export default function AboutUsPage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+              <h3 className="text-xl font-normal mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                 Innovative Solutions
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 We actively pursue forward-thinking approaches to deliver effective, future-ready solutions.
               </p>
@@ -139,12 +139,12 @@ export default function AboutUsPage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+              <h3 className="text-xl font-normal mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                 Expertise & Experience
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 With 25+ years in the industry, our deep knowledge and proven track record place us among the most
                 trusted names.
@@ -169,12 +169,12 @@ export default function AboutUsPage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+              <h3 className="text-xl font-normal mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
                 Strong Presence
               </h3>
               <p
                 className="text-sm md:text-base max-w-xs"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 With branches in Chennai, Coimbatore, and Salem, we ensure prompt service and reliable support across
                 the country.
@@ -185,7 +185,7 @@ export default function AboutUsPage() {
           {/* Read More Button */}
           <div className="flex justify-center mt-12">
             <button
-              className="px-8 py-2 border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors text-[#5E5E5E]"
+              className="px-8 py-2 border border-gray-300 rounded-full text-sm font-light hover:bg-gray-50 transition-colors text-[#5E5E5E]"
               style={{ fontFamily: "Stolzl, sans-serif" }}
             >
               Read More
@@ -269,14 +269,14 @@ export default function AboutUsPage() {
                 </svg>
               </div>
               <h3
-                className="text-xl font-medium mb-3 text-center md:text-left"
+                className="text-xl font-normal mb-3 text-center md:text-left"
                 style={{ fontFamily: "Stolzl, sans-serif" }}
               >
                 Customer-Centric Service
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 Our clients are the core of our business. We strive to set new benchmarks in service excellence and
                 customer satisfaction.
@@ -296,14 +296,14 @@ export default function AboutUsPage() {
                 </svg>
               </div>
               <h3
-                className="text-xl font-medium mb-3 text-center md:text-left"
+                className="text-xl font-normal mb-3 text-center md:text-left"
                 style={{ fontFamily: "Stolzl, sans-serif" }}
               >
                 Creating Value
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 We consistently deliver value to the roofing and white goods industries through innovative solutions,
                 supported by real-world samples and results.
@@ -323,14 +323,14 @@ export default function AboutUsPage() {
                 </svg>
               </div>
               <h3
-                className="text-xl font-medium mb-3 text-center md:text-left"
+                className="text-xl font-normal mb-3 text-center md:text-left"
                 style={{ fontFamily: "Stolzl, sans-serif" }}
               >
                 Keeping Our Promises
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 We stand by every commitment we make, ensuring trust and reliability in every interaction.
               </p>
@@ -349,14 +349,14 @@ export default function AboutUsPage() {
                 </svg>
               </div>
               <h3
-                className="text-xl font-medium mb-3 text-center md:text-left"
+                className="text-xl font-normal mb-3 text-center md:text-left"
                 style={{ fontFamily: "Stolzl, sans-serif" }}
               >
                 Living Our Values
               </h3>
               <p
                 className="text-sm md:text-base text-center md:text-left"
-                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 200, lineHeight: 1.6 }}
+                style={{ fontFamily: "Stolzl, sans-serif", fontWeight: 300, lineHeight: 1.6 }}
               >
                 We operate with integrity—upholding trust, honesty, dedication, accountability, teamwork, knowledge,
                 quality, and a strong desire to excel.
