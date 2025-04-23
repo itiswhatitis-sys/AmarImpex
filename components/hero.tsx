@@ -67,21 +67,19 @@ export default function Hero() {
 
             {/* CTA Button with Figma specifications */}
             <Link
-              href="/contact-us"
-              className="mt-5 sm:mt-6 w-[300px] h-[66px] flex items-center justify-center rounded-[71px] bg-white text-[#242424] hover:bg-opacity-90 transition-all duration-300 shadow-lg"
-              style={{ 
-                fontFamily: "Stolzl, sans-serif",
-                fontWeight: 300,
-                fontSize: "24px",
-                lineHeight: "100%",
-                letterSpacing: "0%",
-                padding: "16px 50px",
-                gap: "10px"
-              }}
-            >
-              Get in Touch
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
+  href="/contact-us"
+  className=" sm:pt-0 mt-5 sm:mt-6 w-full max-w-[240px] sm:max-w-[300px] h-[42px] sm:h-[66px] flex items-center justify-center rounded-[40px] sm:rounded-[71px] bg-white text-[#242424] hover:bg-opacity-90 transition-all duration-300 shadow-lg text-[14px] sm:text-[24px] font-light px-4 sm:px-[50px] gap-1 sm:gap-[10px]"
+  style={{
+    fontFamily: "Stolzl, sans-serif",
+    lineHeight: "100%",
+    letterSpacing: "0%",
+  }}
+>
+  Get in Touch
+  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+</Link>
+
+
           </div>
         </div>
       </div>
