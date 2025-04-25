@@ -1,4 +1,11 @@
-import { Target, Eye, Zap, Trophy } from "lucide-react"
+import { Target, Eye, Zap, Trophy, LucideIcon } from "lucide-react"
+
+import GradientIcon from "./GradientIcon";
+
+// Reusable Gradient Icon Component
+// Reusable Gradient Icon Component with TypeScript
+
+
 
 export default function AboutValuesSection() {
   return (
@@ -36,12 +43,22 @@ export default function AboutValuesSection() {
             <div className="flex items-start mb-8">
               <div className="mr-4 ">
                 <div className="p-2 rounded-full">
-                  <Trophy className="h-6 w-6" />
+                <GradientIcon Icon={Trophy} className="h-6 w-6" />
                 </div>
               </div>
               <div>
-                <h3 className="text-xl md:text-2xl font-medium mb-3" style={{ fontFamily: "Stolzl, sans-serif" }}>
-                  CREATE VALUES
+              <h3
+                      className="text-xl md:text-2xl font-medium mb-3 inline-block"
+                      style={{
+                        fontFamily: "Stolzl, sans-serif",
+                        background: "linear-gradient(to right, #E31E25, #8B87FF)", // starts red, ends bluish
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        backgroundClip: "text",
+                        color: "transparent",
+                      }}
+                    >
+                      CREATE VALUES
                 </h3>
                 <p
                   className="text-base md:text-lg font-normal text-[#585858]"
@@ -66,11 +83,18 @@ export default function AboutValuesSection() {
             <div className="flex items-start mb-8">
               <div className="mr-4">
                 <div className="p-2 rounded-full">
-                  <Eye className="h-6 w-6" />
+                <GradientIcon Icon={Eye} className="h-6 w-6" />
                 </div>
               </div>
               <div>
-                <h3 className="text-xl md:text-2xl font-medium mb-3" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-xl md:text-2xl font-medium mb-3 inline-block"
+                 style={{ fontFamily: "Stolzl, sans-serif" ,
+                        background: "linear-gradient(to right, #E31E25, #8B87FF)", // starts red, ends bluish
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        backgroundClip: "text",
+                        color: "transparent",
+                 }}>
                   OUR VISION
                 </h3>
                 <p
@@ -97,11 +121,18 @@ export default function AboutValuesSection() {
             <div className="flex items-start">
               <div className="mr-4 ">
                 <div className="p-2 rounded-full">
-                  <Zap className="h-6 w-6" />
+                <GradientIcon Icon={Zap} className="h-6 w-6" />
                 </div>
               </div>
               <div>
-                <h3 className="text-xl md:text-2xl font-medium mb-3" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                <h3 className="text-xl md:text-2xl font-medium mb-3 inline-block"
+                 style={{ fontFamily: "Stolzl, sans-serif" ,
+                         background: "linear-gradient(to right, #E31E25, #8B87FF)", // starts red, ends bluish
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        backgroundClip: "text",
+                        color: "transparent",
+                 }}>
                   OUR MISSION
                 </h3>
                 <p
