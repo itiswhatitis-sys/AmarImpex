@@ -63,7 +63,7 @@ export default function ContactUsPage() {
                 </h3>
                 <div className="space-y-1 text-xs">
                   <p>
-                    <span className="text-sm font-extrabold">HQ: </span>
+                    <span className="text-sm font-extrabold">H/O: </span>
                     Arihant Plaza 1st Floor No.84/85, Wall Tax Road, Park Town, Chennai-600003
                   </p>
                   <p>

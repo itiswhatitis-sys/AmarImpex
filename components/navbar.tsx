@@ -119,6 +119,16 @@ export default function Navbar() {
               Our supplier
             </Link>
             <Link
+              href="/our-client"
+              scroll={false}
+              className={cn(
+                "text-sm lg:text-base font-normal text-gray-300 transition-colors hover:text-white",
+                isActive("/our-supplier") && "text-white",
+              )}
+            >
+              Our client
+            </Link>
+            <Link
               href="/contact-us"
               scroll={false}
               className={cn(
@@ -192,6 +202,17 @@ export default function Navbar() {
               onClick={toggleMenu}
             >
               Our supplier
+            </Link>
+            <Link
+              href="/our-client"
+              scroll={false}
+              className={cn(
+                "text-base font-normal text-gray-300 transition-colors hover:text-white",
+                isActive("/our-supplier") && "text-white",
+              )}
+              onClick={toggleMenu}
+            >
+              Our client
             </Link>
             <Link
               href="/contact-us"

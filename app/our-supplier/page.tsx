@@ -37,26 +37,27 @@ export default function OurSupplierPage() {
           </div>
         </div>
 
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 z-10">
-          <img
-            src="/images/hero-gradient-overlay.png"
+         {/* Gradient Overlay */}
+         <div className="absolute inset-0 ">
+        <img
+            src="/images/final-gradient-for-all.png"
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-95 pointer-events-none"
+            style={{ mixBlendMode: "hard-light" }}
             aria-hidden="true"
-          />
+        />
         </div>
 
         {/* Supplier Logos Banner - Improved responsive centering */}
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-center">
-            <div className="bg-white bg-opacity-80 rounded-3xl p-4 sm:p-6 md:p-8 w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-5xl flex items-center justify-center">
+           
               <img
-                src="/images/supplier-logos-collection.png"
+                src="/images/SUPPLIER-LOGO.png"
                 alt="Our Suppliers: ACCIL, Bhushan Power & Steel, Jindal, JSW Steel, POSCO, AM/NS INDIA"
                 className="w-full h-auto"
               />
-            </div>
+           
           </div>
         </div>
       </section>

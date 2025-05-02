@@ -3,25 +3,31 @@ import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden ">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/steel-roof-hero.jpeg"
+          src="/images/home-image.png"
           alt="Steel roof on modern wooden house"
-          className="w-full h-full object-cover object-center"
+          className="absolute  w-full h-full left-1/2 top-[-355] -translate-x-1/2 " 
           loading="eager"
           fetchPriority="high"
         />
-      </div>
-
+    </div>
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 z-10">
-        <img src="/images/hero-gradient-overlay.png" alt="" className="w-full h-full object-cover" aria-hidden="true" />
-      </div>
+      <div className="absolute inset-0 ">
+        <img
+            src="/images/final-gradient-for-all.png"
+            alt=""
+            className="w-full h-full object-cover opacity-95 pointer-events-none"
+            style={{ mixBlendMode: "hard-light" }}
+            aria-hidden="true"
+        />
+        </div>
+    
 
       {/* Content - Using absolute positioning with transform for perfect centering */}
-      <div className="absolute inset-0 z-20 flex items-center justify-center">
+      <div className="absolute inset-0 z-20 pt-32 flex items-center justify-center">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <div className="flex flex-col items-start max-w-4xl">
             {/* Responsive heading */}
@@ -67,17 +73,17 @@ export default function Hero() {
 
             {/* CTA Button with Figma specifications */}
             <Link
-  href="/contact-us"
-  className=" sm:pt-0 mt-5 sm:mt-6 w-full max-w-[240px] sm:max-w-[300px] h-[42px] sm:h-[66px] flex items-center justify-center rounded-[40px] sm:rounded-[71px] bg-white text-[#242424] hover:bg-opacity-90 transition-all duration-300 shadow-lg text-[14px] sm:text-[24px] font-light px-4 sm:px-[50px] gap-1 sm:gap-[10px]"
-  style={{
-    fontFamily: "Stolzl, sans-serif",
-    lineHeight: "100%",
-    letterSpacing: "0%",
-  }}
->
-  Get in Touch
-  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-</Link>
+              href="/contact-us"
+              className=" sm:pt-0 mt-5 sm:mt-6 w-full max-w-[240px] sm:max-w-[300px] h-[42px] sm:h-[66px] flex items-center justify-center rounded-[40px] sm:rounded-[71px] bg-white text-[#242424] hover:bg-opacity-90 transition-all duration-300 shadow-lg text-[14px] sm:text-[24px] font-light px-4 sm:px-[50px] gap-1 sm:gap-[10px]"
+              style={{
+                fontFamily: "Stolzl, sans-serif",
+                lineHeight: "100%",
+                letterSpacing: "0%",
+              }}
+            >
+              Get in Touch
+              <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+            </Link>
 
 
           </div>

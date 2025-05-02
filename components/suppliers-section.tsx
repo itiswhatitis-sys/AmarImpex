@@ -13,7 +13,7 @@ export default function SuppliersSection() {
           <img
             src="/images/supplier-logos.png"
             alt="Our Suppliers: ACCIL, Bhushan Power & Steel, Jindal, JSW Steel, POSCO, AM/NS INDIA"
-            className="w-full max-w-5xl"
+            className="w-full max-w-5xl "
           />
         </div>
         {/* Divider */}

@@ -26,14 +26,15 @@ export default function AboutUsPage() {
           </div>
         </div>
 
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 z-10">
-          <img
-            src="/images/hero-gradient-overlay.png"
+         {/* Gradient Overlay */}
+         <div className="absolute inset-0 ">
+        <img
+            src="/images/final-gradient-for-all.png"
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-95 pointer-events-none"
+            style={{ mixBlendMode: "hard-light" }}
             aria-hidden="true"
-          />
+        />
         </div>
 
         {/* Content */}

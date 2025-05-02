@@ -115,18 +115,27 @@ export default function Footer() {
         {/* Middle section with locations and contacts */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
           {/* Locations */}
-          <div>
+          <div  >
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Locations</h3>
             <div className="space-y-3  text-sm font-light">
-              <p>ARIHANT PLAZA 1ST FLOOR NO.84/85, WALL TAX ROAD PARK TOWN, CHENNAI 600003</p>
-              <p>KKR GARDEN, MADHAVARAM, CHENNAI, TAMIL NADU 600118</p>
-              <p>NO 239/2A-2B, BOMMINAICHENPATTY POST, MUTHUNAICKENPATTY, OMALUR TALUK, SALEM - 636304</p>
-              <p>104/1, BAY 6, SATHY ROAD, SARAVANAMPATTI, COIMBATORE - 641035</p>
+              <p>
+              <span className="text-sm font-extrabold">H/O - </span>
+                ARIHANT PLAZA 1ST FLOOR NO.84/85, WALL TAX ROAD PARK TOWN, CHENNAI 600003</p>
+              <p>
+              <span className="text-sm font-extrabold">FACTORY - </span>
+                KKR GARDEN, MADHAVARAM, CHENNAI, TAMIL NADU 600118</p>
+              <p>
+              <span className="text-sm font-extrabold">BRANCH - </span>
+                NO 239/2A-2B, BOMMINAICHENPATTY POST, MUTHUNAICKENPATTY, OMALUR TALUK, SALEM - 636304 </p>
+              <p>
+              <span className="text-sm font-extrabold">BRANCH - </span>
+                104/1, BAY 6, SATHY ROAD, SARAVANAMPATTI, COIMBATORE - 641035</p>
             </div>
           </div>
 
           {/* Contacts */}
-          <div>
+          <div className="md:flex md:justify-end">
+          <div className="text-left">
             <h3 className="text-[#E31E25] font-medium text-lg mb-4">Contacts</h3>
             <div className="space-y-3 text-sm font-light">
               <p>AMARIMPEX2015@GMAIL.COM</p>
@@ -136,10 +145,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        </div>
       </div>
 
       {/* Copyright - Full width black section */}
-      <div className="w-full bg-black mt-6">
+      <div className="w-full bg-[#262626] mt-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
           <div className="border-t border-gray-700 pt-6 pb-4">
             <p className="text-center text-xs">

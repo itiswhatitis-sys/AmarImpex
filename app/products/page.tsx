@@ -28,14 +28,15 @@ export default function ProductsPage() {
           </div>
         </div>
 
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 z-10">
-          <img
-            src="/images/hero-gradient-overlay.png"
+         {/* Gradient Overlay */}
+         <div className="absolute inset-0 ">
+        <img
+            src="/images/final-gradient-for-all.png"
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-95 pointer-events-none"
+            style={{ mixBlendMode: "hard-light" }}
             aria-hidden="true"
-          />
+        />
         </div>
 
         {/* Content - Positioned at bottom center */}
@@ -221,6 +222,73 @@ export default function ProductsPage() {
                 </div></div>
               </div>
             </div>
+
+            {/* Multiwall-Polycarbonate */}
+            <div className="bg-[#F2F2F2] rounded-2xl overflow-hidden">
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-[35%] lg:w-[30%] p-4 flex items-center justify-center">
+                  <img
+                    src="/images/Multiwall-Polycarbonate.png "
+                    alt="Multiwall-Polycarbonate"
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
+                  <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                   MULTIWALL POLYCARBANATE
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-800">
+                    Amar Multiwall Polycarbonate Sheets are highly engineered and versatile products, making them suitable for a wide range of applications. Their excellent weight-to-performance ratio ensures outstanding results at economical values.
+                  </p>
+                </div></div>
+              </div>
+            </div>
+
+            {/* Solid Polycarbonate Sheets */}
+            <div className="bg-[#F2F2F2] rounded-2xl overflow-hidden">
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-[35%] lg:w-[30%] p-4 flex items-center justify-center">
+                  <img
+                    src="/images/Solid-Polycarbonate-Sheets.png"
+                    alt="Amar Corrugation Profile"
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
+                  <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                  SOLID POLYCARBONATE SHEETS
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-800">
+                  Amar Solid Polycarbonate Sheets offer a wide range of properties that make them superior to other thermoplastic sheets and the preferred material for high-performance roofing, glazing, and fabricated solutions.
+                  </p>
+                </div></div>
+              </div>
+            </div>
+
+            {/* UPVC-TILE-PROFILE */}
+            <div className="bg-[#F2F2F2] rounded-2xl overflow-hidden">
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-[35%] lg:w-[30%] p-4 flex items-center justify-center">
+                  <img
+                    src="/images/UPVC-TILE-PROFILE.png"
+                    alt="Amar Corrugation Profile"
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <div className="md:w-[65%] lg:w-[70%] p-6 flex items-center">
+                <div className="flex flex-col justify-center">
+                  <h3 className="text-[#E31E25] text-xl font-medium mb-2" style={{ fontFamily: "Stolzl, sans-serif" }}>
+                  UPVC-TILE-PROFILE 
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-800">
+                  Amar UPVC Tile Profile offers durable, aesthetically appealing roofing solutions designed for long-lasting performance. Combining modern technology with traditional style, these tile profiles are ideal for residential, commercial, and industrial buildings, ensuring weather resistance and low maintenance.
+                  </p>
+                </div></div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
