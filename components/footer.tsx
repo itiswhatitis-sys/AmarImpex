@@ -123,7 +123,7 @@ export default function Footer() {
                 ARIHANT PLAZA 1ST FLOOR NO.84/85, WALL TAX ROAD PARK TOWN, CHENNAI 600003</p>
               <p>
               <span className="text-sm font-extrabold">FACTORY - </span>
-                KKR GARDEN, MADHAVARAM, CHENNAI, TAMIL NADU 600118</p>
+              200A, MADHAVARAM HG ROAD, MADHAVARAM, CHENNAI, TAMIL NADU 600118</p>
               <p>
               <span className="text-sm font-extrabold">BRANCH - </span>
                 NO 239/2A-2B, BOMMINAICHENPATTY POST, MUTHUNAICKENPATTY, OMALUR TALUK, SALEM - 636304 </p>
