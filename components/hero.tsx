@@ -6,13 +6,13 @@ export default function Hero() {
     <section className="relative w-full h-screen overflow-hidden ">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src="/images/home-image.png"
-          alt="Steel roof on modern wooden house"
-          className="absolute  w-full h-full left-1/2 top-[-355] -translate-x-1/2 " 
-          loading="eager"
-          fetchPriority="high"
-        />
+      <img
+        src="/images/home-image.png"
+        alt="Steel roof on modern wooden house"
+        className="w-full h-full object-cover object-center "
+        loading="eager"
+        fetchPriority="high"
+      />
     </div>
       {/* Gradient Overlay */}
       <div className="absolute inset-0 ">

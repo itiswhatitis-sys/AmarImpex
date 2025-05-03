@@ -140,7 +140,7 @@ export default function Footer() {
             <div className="space-y-3 text-sm font-light">
               <p>AMARIMPEX2015@GMAIL.COM</p>
               <p>INFO@AMARIMPEXROOFS.COM</p>
-              <p>+91-44-42113190</p>
+              <p>044-42133190</p>
               <p>+91-9696636666</p>
             </div>
           </div>

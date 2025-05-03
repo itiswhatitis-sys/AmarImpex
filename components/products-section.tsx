@@ -114,7 +114,7 @@ export default function ProductsSection() {
               </div>
               <div className="p-3">
                 <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
-                  AMAR FLEXI PROFILE
+                 FLEXI PROFILE
                 </h3>
                 <p
                   className="text-gray-400 text-[11px]  leading-relaxed"
@@ -140,7 +140,7 @@ export default function ProductsSection() {
               </div>
               <div className="p-3">
                 <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
-                  AMAR TILE PROFILE
+                  TILE PROFILE
                 </h3>
                 <p
                   className="text-gray-400 text-[11px]  leading-relaxed"
@@ -166,7 +166,7 @@ export default function ProductsSection() {
               </div>
               <div className="p-3">
                 <h3 className="text-sm font-medium text-white mb-1" style={{ fontFamily: "Stolzl, sans-serif" }}>
-                  AMAR CORRUGATION PROFILE
+                CORRUGATION PROFILE
                 </h3>
                 <p
                   className="text-gray-400 text-[11px]  leading-relaxed"
