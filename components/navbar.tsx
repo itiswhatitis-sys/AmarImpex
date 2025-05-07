@@ -54,7 +54,7 @@ export default function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 w-full bg-[#242424] text-white transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 w-full bg-[#990000] text-white transition-all duration-300",
         isScrolled ? "py-2 shadow-lg" : "py-3 md:py-4",
       )}
     >
@@ -153,7 +153,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div
           className={cn(
-            "fixed inset-0 top-[53px] z-50 flex flex-col bg-[#242424] p-4 transition-transform duration-300 ease-in-out md:hidden",
+            "fixed inset-0 top-[53px] z-50 flex flex-col bg-[#990000] p-4 transition-transform duration-300 ease-in-out md:hidden",
             isMenuOpen ? "translate-x-0" : "translate-x-full",
           )}
           style={{ fontFamily: "Stolzl, sans-serif" }}

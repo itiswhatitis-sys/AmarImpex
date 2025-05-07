@@ -50,12 +50,12 @@ export default function OurSupplierPage() {
 
         {/* Supplier Logos Banner - Improved responsive centering */}
         <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-center">
+          <div className="w-full  max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-center">
            
               <img
-                src="/images/SUPPLIER-LOGO.png"
+                src="/images/Supplier-logo-final.png"
                 alt="Our Suppliers: ACCIL, Bhushan Power & Steel, Jindal, JSW Steel, POSCO, AM/NS INDIA"
-                className="w-full h-auto"
+                className="w-full h-auto "
               />
            
           </div>

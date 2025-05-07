@@ -67,8 +67,11 @@ export default function ContactUsPage() {
                     Arihant Plaza 1st Floor No.84/85, Wall Tax Road, Park Town, Chennai-600003
                   </p>
                   <p>
-                    <span className="text-sm font-extrabold">FA: </span>
+                    <span className="text-sm font-extrabold">Factory: </span>
                     No.200, Madhavaram High Road, Madhavaram, Chennai-600060
+                  </p><p>
+                    <span className="text-sm font-extrabold">Branch: </span>
+                    NO 239/2A-2B, Bomminaichenpatty Post, Muthunaickenpatty, Omalur Taluk, Salem - 636304
                   </p>
                   <p>
                     <span className="text-sm font-extrabold">CBE: </span>
