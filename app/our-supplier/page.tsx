@@ -53,7 +53,7 @@ export default function OurSupplierPage() {
           <div className="w-full  max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-center">
            
               <img
-                src="/images/Supplier-logo-final.png"
+                src="/images/SUPPLIER-LOGO.png"
                 alt="Our Suppliers: ACCIL, Bhushan Power & Steel, Jindal, JSW Steel, POSCO, AM/NS INDIA"
                 className="w-full h-auto "
               />

@@ -11,7 +11,7 @@ export default function SuppliersSection() {
 
         <div className="flex justify-center">
           <img
-            src="/images/supplier-logos.png"
+            src="/images/Supplier-logo-for-home.png"
             alt="Our Suppliers: ACCIL, Bhushan Power & Steel, Jindal, JSW Steel, POSCO, AM/NS INDIA"
             className="w-full max-w-5xl "
           />
